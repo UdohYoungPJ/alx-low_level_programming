@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int i, j;
+	int j, i;
 
-	for (i = 0; i < 99; i++)
+	for (j = 0; j <= 99; j++)
 	{
-		for (j = 0; j < 99; i++)
+		for (i = j; i <= 99; i++)
 		{
 			if (i != j)
 			{
